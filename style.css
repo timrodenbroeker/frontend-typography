@@ -1,0 +1,55 @@
+.gutenberg h1,
+.gutenberg .has-large-font-size {
+  font-size: 50px;
+  line-height: 1.1em; }
+
+.gutenberg h2 {
+  font-size: 30px;
+  line-height: 1.1em; }
+
+.gutenberg .has-medium-font-size {
+  font-size: 30px;
+  line-height: 1.1em; }
+
+.gutenberg h3 {
+  font-size: 16px;
+  line-height: 1.1em; }
+
+.gutenberg h4 {
+  font-size: 13px;
+  line-height: 1.1em; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0; }
+
+.section-info {
+  background: #ffffff; }
+
+.section-lightGrey {
+  background: #fafafa; }
+
+section {
+  padding: 30px 0; }
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  padding: 0 15px;
+  margin: 0 auto; }
+
+* {
+  font-family: sans-serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin-top: 0; }
+
+
+/*# sourceMappingURL=style.css.map */

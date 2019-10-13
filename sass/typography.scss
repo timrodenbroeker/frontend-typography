@@ -1,0 +1,19 @@
+@mixin fontSizeLarge {
+	font-size: 50px;
+	line-height: 1.1em;
+}
+
+@mixin fontSizeMedium {
+	font-size: 30px;
+	line-height: 1.1em;
+}
+
+@mixin fontSizeNormal {
+	font-size: 16px;
+	line-height: 1.1em;
+}
+
+@mixin fontSizeSmall {
+	font-size: 13px;
+	line-height: 1.1em;
+}

@@ -1,0 +1,42 @@
+@import 'typography';
+@import 'typography_gutenberg';
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.section-info {
+	background: #ffffff;
+}
+
+.section-lightGrey {
+	background: #fafafa;
+}
+
+section {
+	padding: 30px 0;
+}
+
+.container {
+	width: 100%;
+	max-width: 1000px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+* {
+	font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+	margin-top: 0;
+}
