@@ -1,0 +1,41 @@
+@import 'typography';
+
+.gutenberg {
+	
+	h2 {
+		@include fontSizeLarge;
+		margin: 0;
+		font-weight: 700;
+	}
+	.has-large-font-size {
+		@include fontSizeLarge;
+		font-weight: 300;
+	} 
+	h3 {
+		@include fontSizeMedium;
+		margin: 0;
+		font-weight: 700;			
+
+	}
+	.has-medium-font-size {
+		@include fontSizeMedium;
+		font-weight: 300;
+	}
+	h4 {
+		@include fontSizeNormal;
+		margin: 0;
+		font-weight: 700;		
+	}
+	.has-small-font-size {
+		@include fontSizeSmall;
+	}
+	p {
+		@include fontSizeNormal;
+		margin-bottom: 25px;	
+		font-weight: 500;
+	}
+
+	code {
+		@include fontSizeNormal;
+	}
+}

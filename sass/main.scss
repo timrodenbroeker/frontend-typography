@@ -1,5 +1,30 @@
-@import 'typography';
-@import 'typography_gutenberg';
+@import 'gutenberg';
+
+@font-face {
+  font-family: 'SuisseIntl';
+  src: url("fonts/SuisseIntl-Black-WebS.woff2") format("woff2"), url("fonts/SuisseIntl-Black-WebS.woff") format("woff");
+  font-weight: 900; }
+
+
+@font-face {
+  font-family: 'SuisseIntl';
+  src: url("fonts/SuisseIntl-Bold-WebXL.woff2") format("woff2"), url("fonts/SuisseIntl-Bold-WebXL.woff") format("woff");
+  font-weight: 700; }
+
+  @font-face {
+  font-family: 'SuisseIntl';
+  src: url("fonts/SuisseIntl-Regular-WebXL.woff2") format("woff2"), url("fonts/SuisseIntl-Regular-WebXL.woff") format("woff");
+  font-weight: 500; }
+
+@font-face {
+  font-family: 'SuisseIntl';
+  src: url("fonts/SuisseIntl-Light-WebXL.woff2") format("woff2"), url("fonts/SuisseIntl-Light-WebXL.woff") format("woff");
+  font-weight: 300; }
+
+@font-face {
+  font-family: 'SuisseIntlMono';
+  src: url("fonts/SuisseIntlMono-Regular-WebXL.woff2") format("woff2"), url("fonts/SuisseIntl-Light-WebXL.woff") format("woff");
+  font-weight: 500; }
 
 * {
 	box-sizing: border-box;
@@ -7,14 +32,17 @@
 
 body {
 	margin: 0;
+	font-family: "SuisseIntl", Helvetica, Arial, sans-serif;
 }
 
-.section-info {
-	background: #ffffff;
+.section-info {	
+	* {
+		color: #aaaaaa;
+	}
 }
 
 .section-lightGrey {
-	background: #fafafa;
+	
 }
 
 section {
@@ -23,20 +51,11 @@ section {
 
 .container {
 	width: 100%;
-	max-width: 1000px;
+	max-width: 800px;
 	padding: 0 15px;
 	margin: 0 auto;
 }
 
-* {
-	font-family: sans-serif;
-}
+h1 {
 
-h1,
-h2,
-h3,
-h4,
-h5,
-p {
-	margin-top: 0;
 }

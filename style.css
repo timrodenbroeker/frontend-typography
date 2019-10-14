@@ -1,47 +1,3 @@
-.gutenberg h1,
-.gutenberg .has-large-font-size {
-  font-size: 50px;
-  line-height: 1.1em; }
-
-.gutenberg h2 {
-  font-size: 30px;
-  line-height: 1.1em; }
-
-.gutenberg .has-medium-font-size {
-  font-size: 30px;
-  line-height: 1.1em; }
-
-.gutenberg h3 {
-  font-size: 16px;
-  line-height: 1.1em; }
-
-.gutenberg h4 {
-  font-size: 13px;
-  line-height: 1.1em; }
-
-* {
-  box-sizing: border-box; }
-
-body {
-  margin: 0; }
-
-.section-info {
-  background: #ffffff; }
-
-.section-lightGrey {
-  background: #fafafa; }
-
-section {
-  padding: 30px 0; }
-
-.container {
-  width: 100%;
-  max-width: 1000px;
-  padding: 0 15px;
-  margin: 0 auto; }
-
-* {
-  font-family: sans-serif; }
 
 h1,
 h2,
@@ -51,5 +7,167 @@ h5,
 p {
   margin-top: 0; }
 
+pre {
+  background: #fafafa;
+  padding: 15px;
+  margin-bottom: 15px; }
+
+.gutenberg h2 {
+  font-size: 50px;
+  line-height: 1.1em;
+  margin: 0;
+  font-weight: 700; }
+
+.gutenberg .has-large-font-size {
+  font-size: 50px;
+  line-height: 1.1em;
+  font-weight: 300; }
+
+.gutenberg h3 {
+  font-size: 30px;
+  line-height: 1.2em;
+  margin: 0;
+  font-weight: 700; }
+
+.gutenberg .has-medium-font-size {
+  font-size: 30px;
+  line-height: 1.2em;
+  font-weight: 300; }
+
+.gutenberg h4 {
+  font-size: 17px;
+  line-height: 1.4em;
+  margin: 0;
+  font-weight: 700; }
+
+.gutenberg .has-small-font-size {
+  font-size: 13px;
+  line-height: 1.4em;
+  font-family: SuisseIntlMono;
+  text-transform: uppercase; }
+
+.gutenberg p {
+  font-size: 17px;
+  line-height: 1.4em;
+  margin-bottom: 25px;
+  font-weight: 500; }
+
+.gutenberg code {
+  font-size: 17px;
+  line-height: 1.4em; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin-top: 0; }
+
+pre {
+  background: #fafafa;
+  padding: 15px;
+  margin-bottom: 15px; }
+
+.gutenberg h2 {
+  font-size: 50px;
+  line-height: 1.1em;
+  margin: 0;
+  font-weight: 700; }
+
+.gutenberg .has-large-font-size {
+  font-size: 50px;
+  line-height: 1.1em;
+  font-weight: 300; }
+
+.gutenberg h3 {
+  font-size: 30px;
+  line-height: 1.2em;
+  margin: 0;
+  font-weight: 700; }
+
+.gutenberg .has-medium-font-size {
+  font-size: 30px;
+  line-height: 1.2em;
+  font-weight: 300; }
+
+.gutenberg h4 {
+  font-size: 17px;
+  line-height: 1.4em;
+  margin: 0;
+  font-weight: 700; }
+
+.gutenberg .has-small-font-size {
+  font-size: 13px;
+  line-height: 1.4em;
+  font-family: SuisseIntlMono;
+  text-transform: uppercase; }
+
+.gutenberg p {
+  font-size: 17px;
+  line-height: 1.4em;
+  margin-bottom: 25px;
+  font-weight: 500; }
+
+.gutenberg code {
+  font-size: 17px;
+  line-height: 1.4em; }
+
+@font-face {
+  font-family: 'SuisseIntl';
+  src: url("fonts/SuisseIntl-Black-WebS.woff2") format("woff2"), url("fonts/SuisseIntl-Black-WebS.woff") format("woff");
+  font-weight: 900; }
+
+@font-face {
+  font-family: 'SuisseIntl';
+  src: url("fonts/SuisseIntl-Bold-WebXL.woff2") format("woff2"), url("fonts/SuisseIntl-Bold-WebXL.woff") format("woff");
+  font-weight: 700; }
+
+@font-face {
+  font-family: 'SuisseIntl';
+  src: url("fonts/SuisseIntl-Regular-WebXL.woff2") format("woff2"), url("fonts/SuisseIntl-Regular-WebXL.woff") format("woff");
+  font-weight: 500; }
+
+@font-face {
+  font-family: 'SuisseIntl';
+  src: url("fonts/SuisseIntl-Light-WebXL.woff2") format("woff2"), url("fonts/SuisseIntl-Light-WebXL.woff") format("woff");
+  font-weight: 300; }
+
+@font-face {
+  font-family: 'SuisseIntlMono';
+  src: url("fonts/SuisseIntlMono-Regular-WebXL.woff2") format("woff2"), url("fonts/SuisseIntl-Light-WebXL.woff") format("woff");
+  font-weight: 500; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "SuisseIntl", Helvetica, Arial, sans-serif; }
+
+.section-info * {
+  color: #aaaaaa; }
+
+section {
+  padding: 30px 0; }
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  padding: 0 15px;
+  margin: 0 auto; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin-top: 0; }
+
+pre {
+  background: #fafafa;
+  padding: 15px;
+  margin-bottom: 15px; }
 
 /*# sourceMappingURL=style.css.map */

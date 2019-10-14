@@ -44,7 +44,7 @@ function browserSync() {
 			baseDir: './',
 		},
 		notify: false,
-		browser: 'google chrome',
+		browser: 'firefox',
 		// proxy: "0.0.0.0:5000"
 	});
 }
